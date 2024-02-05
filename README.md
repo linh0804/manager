@@ -10,7 +10,7 @@ Nếu có lỗi các bạn cứ báo trên repo này (phần `Issues`), hoặc l
 
 ## File cài đặt nhanh
 
-Tạo một file php, dán code ở [file này](https://raw.githubusercontent.com/pmtpro/file-manager/main/install.manager.php.txt) vào và chạy nó.
+Tạo một file php, dán code ở [file này](https://raw.githubusercontent.com/linh0804/manager/main/install.manager.php.txt) vào và chạy nó.
 
 ## Hướng dẫn cài đặt
 
