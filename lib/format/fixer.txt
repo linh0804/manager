@@ -1,0 +1,20 @@
+
+
+<?php
+
+echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
+$file = new RecursiveDirectoryIterator('.');
+foreach (new RecursiveIteratorIterator($file) as $name) {
+    if (preg_match('/error_log/i', $name)) {
+        if (!filesize($name)) {
+            continue;
+        }
+        echo $name . ' (' . round(filesize($name) / (1024 ** 2), 2) . ' MB)<br />';
+        $content = htmlspecialchars(
+            file_get_contents($name)
+        );
+        echo '<textarea readonly rows="10" style="width: 100%">' . $content . '</textarea><br /><br />';
+    }
+}
+
+

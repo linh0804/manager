@@ -1,0 +1,13 @@
+.idea/
+node_modules/
+vendor/
+
+tmp/*
+tmp/!.htaccess
+
+config.inc.php
+database.inc.php
+bookmark.json
+
+composer.lock
+yarn.lock

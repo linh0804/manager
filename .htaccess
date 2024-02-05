@@ -1,0 +1,11 @@
+RedirectMatch 403 tmp/.*
+
+DirectoryIndex index.php
+
+# Du phong
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{REQUEST_FILENAME} -d
+
+RewriteRule tmp/.* - [F,L]
