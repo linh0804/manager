@@ -4,7 +4,7 @@
 // va luu vao 1 thu muc dinh san ($path)
 // Yeu cau: ext-zip
 
-$fileUrl = 'https://github.com/pmtpro/file-manager/archive/main.zip';
+$fileUrl = 'https://github.com/linh0804/manager/archive/main.zip';
 $saveTo = 'manager-' . time() . '.zip';
 $path = './';
 $pathUrl = 'file-manager-main';
